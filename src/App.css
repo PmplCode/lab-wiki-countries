@@ -1,5 +1,19 @@
 .App {
   text-align: center;
+  display: flex;
+}
+
+.App nav {
+  display: inline-block;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+li {
+  list-style-type: none;
 }
 
 .App-logo {
